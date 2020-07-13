@@ -641,6 +641,7 @@ ul {
   left: 42px;
   transform: translateY(-50%);
   color: #757575;
+  outline: none;
 
   font-size: 14px;
   line-height: 1.14;
@@ -664,6 +665,7 @@ ul {
   transform: translateY(-40px);
   left: 16px;
   color: #2196f3;
+  border-color: $hover-color;
 
   font-size: 12px;
   line-height: 1.16;
@@ -709,6 +711,7 @@ ul {
 .modal-form-input:focus,
 .modal-form-input:not(:placeholder-shown) {
   border-color: #2196f3;
+  outline: none;
 }
 
 .modal-form-input.text-area {
